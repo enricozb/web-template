@@ -1,10 +1,14 @@
 import { h } from "preact";
 
+import Main from "@src/components/main";
+
 const Home = () => {
   return (
-    <div>
-      I am in a box!
-    </div>
+    <Main>
+      <div>
+        Home page...
+      </div>
+    </Main>
   );
 };
 
