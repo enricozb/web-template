@@ -1,4 +1,6 @@
-# landing
+# Web Template
+
+Preact, Typescript, Tailwind CSS
 
 ## CLI Commands
 
