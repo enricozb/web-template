@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider preact build",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider preact build",
     "serve": "sirv build --cors --single",
-    "dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider concurrently \"preact watch\" \"tailwindcss -i ./src/style/tailwind.css -o ./src/style/index.css --watch\"",
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider concurrently \"preact watch\" \"tailwindcss -i ./src/style/tailwind.css -o ./src/style/index.css --watch\"",
     "lint": "eslint src",
     "test": "jest"
   },
